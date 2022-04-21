@@ -1,0 +1,30 @@
+*{
+    background-color: aquamarine;
+    font-family: Arial;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    width: 15%;
+    display: inline-block;
+    line-height: 30px;
+}
+
+input {
+    background-color: white;
+    width: 200px;
+}
+
+.boton {
+    width: auto;
+    border-radius: 5px;
+}
