@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex19</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" />
+    <script src="formulario.js"></script>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div><h1>Personas</h1></div>
+      <div>
+        <p>
+           A continuacion inserte sus datos
+        </p>
+      </div>
+      <form id="formulario">
+        <label>Usuario</label>
+        <input type="text" id="username" />
+        <br>
+
+        <label>Apellidos</label>
+        <input type="text" id="surname" />
+        <br>
+        
+        <label>Nombre</label>
+        <input type="text" id="name" />
+        <br>
+
+        <label>Contraseña</label>
+        <input type="password" id="passwd" />
+        <br>
+
+        <label>Email de la compañía </label>
+        <input type="email" id="emailcomp" />
+        <br>
+
+        <label>Email personal  </label>
+        <input type="email" id="emailpers" />
+        <br>
+
+        <label>Ciudad  </label>
+        <input type="text" id="city" />
+        <br>
+
+        <label>Url de la imagen </label>
+        <input type="url" id="imagen_url" />
+        <br>
+
+        <label>Fecha de creación</label>
+        <input type="date" id="created_date" />
+        <br>
+
+        <label>Activado</label>
+        <input type="checkbox" id="active"/>
+        <br>
+
+        <label>Fecha de finalización </label>
+        <input type="date" id="finish_date" />
+        <br>
+
+        <div id="botones">
+          <input type="submit" onclick="submitPersona(event)" />
+          <input type="reset" onclick="resetForm()" value="Limpiar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
