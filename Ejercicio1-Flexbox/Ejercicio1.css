@@ -1,0 +1,68 @@
+.rojo1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja1 {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+}
+
+.rojo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.caja2 {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    }
+
+.arriba {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.caja3 {
+    background-color: blue;
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+}
+
+.caja3:last-child {
+    flex-wrap: wrap;
+}
+
+.rojo3 {
+    justify-content: left;
+    display: flex;
+}
+
+.CajaI {
+    background-color: red;
+    margin: 5px;
+    width: 15%;
+    height: 100px;
+}
+
+.CajaI:first-child {
+    width: 30%;
+    text-align: center;
+}
+.rojo4{
+    justify-content: right;
+    display: flex;
+}
+
+.CajaD {
+    background-color: red;
+    margin: 5px;
+    width: auto;
+    height: 100px;
+}
+
