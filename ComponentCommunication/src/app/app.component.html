@@ -1,0 +1,40 @@
+<div class="row rounded shadow">
+  <div class="col">
+      <i class="bi bi-caret-down-fill "></i>
+  </div>
+</div>
+
+<div class="row container mt-5">
+  <div class="col">
+
+      <div class="row container m-3">
+          <div class="padre-container mt-2">
+              <h5>Mensajes del Padre</h5>
+          </div>
+          <div class="col m-3 text-center">
+              message:{{mensaje}}
+              <div class="row">
+                  <div class="col-3 list-group-item m-1" (click)="mensajeServicio()">
+                      Servicio
+                  </div>
+                  <div class="col-4 list-group-item m-1" (click)="mensajeInput()">
+                      Input
+                  </div>
+                  <div class="col-4 list-group-item m-1" (click)="mensajeObservable()">
+                      Observable
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row container m-3">
+          <div class="hijo-container mt-2">
+              <h5>Mensajes del Hijo</h5>
+          </div>
+          <div class="col m-3">
+              <app-hijo (msgOutput)="mensajeOutput($event)" [msgInput]="mensajeHijo"></app-hijo>
+          </div>
+      </div>
+
+  </div>
+</div>
